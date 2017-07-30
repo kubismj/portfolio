@@ -11,12 +11,28 @@ body {
 	font-weight: 300;
 }
 
-/* main menu Style start */
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
 
+section {
+	padding: 0 80px 100px;
+	max-height: 100%; 
+}
+section h2 {
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 60px;
+	margin-bottom: 35px;
+}
+
+/* main menu Style start */
 #main-nav {
 	position: fixed;
 	width: 100%;
 	background-color: #fff;
+	top: 0;
+	right: 0;
 }
 #main-nav > ul {
 	margin: 0;
@@ -35,10 +51,9 @@ body {
 #main-nav > ul > li > a:hover {
 	color: #291f1a;
 }
-/*main menu styles STOP*/
+/* main menu styles STOP */
 
-/*header styles START*/
-
+/* header styles START */
 #main-header {
 	background-image: url(../img/header-background.jpg);
 	background-size: cover;
@@ -51,4 +66,42 @@ body {
 #main-header .main-header-content h1 {
 	font-family: 'Roboto', sans-serif;
 }
-/*header styles STOP*/
+/* header styles STOP */
+
+/* section about styles START */
+#about {
+	background-color: #f9fcfe;
+	overflow: hidden;
+}
+#about > figure {
+	width: 50%;
+	float: left;
+	margin: 0;
+	text-align: center;
+}
+#about > article {
+	width: 50%;
+	float: left;
+}
+#about > figure > img {
+	max-height: 350px;
+	max-width: 100%;
+	border: 15px #fff solid;
+	border-radius: 15%;
+}
+/* section about styles STOP */
+
+/* section skills START */
+
+#skills > p {
+	text-align: center;
+}
+#skills #skills-icons {
+	display: inline-block;
+}
+#skills #skills-icons figure img {
+	margin-bottom: 15px;
+}
+
+/* section skills STOP */
+
