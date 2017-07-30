@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+/* dodawanie fontów np ze str. "https://fonts.google.com/?query=ro&selection.family=Lato|Roboto" */
+
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	color: #291f1a;
+	font-weight: 300;
+}
+
+/* main menu Style start */
+
+#main-nav {
+	position: fixed;
+	width: 100%;
+	background-color: #fff;
+}
+#main-nav > ul {
+	margin: 0;
+	float: right;
+}
+#main-nav > ul > li {
+	display: inline-block;
+	outline-style: none;
+}
+
+#main-nav > ul > li > a {
+	color: #1ac056;
+	font-weight: 300;
+	text-decoration: none;
+}
+#main-nav > ul > li > a:hover {
+	color: #291f1a;
+}
+/*main menu styles STOP*/
+
+/*header styles START*/
+
+#main-header {
+	background-image: url(../img/header-background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#main-header .main-header-content {
+	padding: 30vh;
+}
+#main-header .main-header-content h1 {
+	font-family: 'Roboto', sans-serif;
+}
+/*header styles STOP*/
