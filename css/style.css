@@ -96,7 +96,10 @@ section h2 {
 #skills > p {
 	text-align: center;
 }
-#skills #skills-icons {
+#skills div#skills-icons {
+	text-align: center;
+}
+#skills #skills-icons figure {
 	display: inline-block;
 }
 #skills #skills-icons figure img {
@@ -105,3 +108,123 @@ section h2 {
 
 /* section skills STOP */
 
+/* selection contact START */
+#contact {
+	background-color: #213b50;
+	color: #fff;
+	overflow: hidden;
+}
+#contact .contact-data {
+	width: 50%;
+	float: left;
+}
+#contact .contact-data h2 {
+	width: 50%;
+	float: left;
+}
+#contact .contact-data h2 span {
+	color: green;
+}
+#contact .contact-data adress {
+	font-style: normal;
+	line-height: 25px;
+	margin: 72px 0;
+}
+#contact .contact-data adress a {
+	color: #1ac056;
+}
+#contact .contact-data .contact-social-icons a {
+/*	display inline block*/
+	display: inline-block;
+	width: 38px;
+	color: #fff;
+	border: 1px solid #fff;
+	text-align: center;
+	font-size: 22px;
+}
+#contact .contact-data .contact-social-icons a:hover {
+	color: #213b50;
+	background-color: #fff;
+}
+#contact .contact-form {
+	width: 50%;
+	float: left;
+	margin-top: 100px;
+}
+#contact .contact-form input {
+	width: 100%;
+	padding: 15px;
+	background-color: darkblue;
+	border: 0px;
+	color: #fff;
+}
+#contact .contact-form input:focus,
+#contact .contact-form textarea:focus {
+	background-color: #213b50;
+}
+#contact .contact-form input[type="submit"] {
+	background-color: green;
+	color: #fff;
+	width: auto;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 15px 30px;
+	border: 1px #1ac056 solid;
+	float: right;
+}
+
+
+/* selection contact STOP */
+
+/* Portfolio section START */
+#portfolio .portfolio-items {
+	font-size: 0px;
+}
+#portfolio .portfolio-items .single-portfolio-item {
+	height: 380px;
+	width: 33.33%;
+	display: inline-block;
+	font-size: 22px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+#portfolio-item-1 {
+	background-image: url(../img/portfolio1.jpg);
+}
+#portfolio-item-2 {
+	background-image: url(../img/portfolio2.jpg);
+}
+#portfolio-item-3 {
+	background-image: url(../img/portfolio3.jpg);
+}
+#portfolio .portfolio-items .single-portfolio-item .item-mask {
+	background-color: rgba(42,61,79,0.8);
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+/* font-size: initial */
+	position: absolute;
+}
+#portfolio .portfolio-items .single-portfolio-item .item-mask:hover {
+	opacity: 1;
+}
+
+#portfolio .portfolio-items .single-portfolio-item .item-mask .item-mask-content {
+	height: 360px;
+	border: 1px solid #fff;
+	margin: 10px;
+	position: relative;
+}
+#portfolio .portfolio-items .single-portfolio-item .item-mask .item-mask-content .item-content-inner {
+	color:aliceblue;
+	right: 0;
+	left: 0;
+	transform: translateY(-50%);
+	top: 50%;
+	position: absolute;
+	padding: 5px;
+}
+
+/* Portfolio section STOP */

@@ -1,74 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>portfolio</title>
-<!--	linkowanie do css -->
+	<!--	linkowanie do font-awesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!--	linkowanie do css -->
 	<link rel="stylesheet" href="css/style.css">
-<!--	linkowanie do fontów "https://fonts.google.com/?query=ro&selection.family=Lato|Roboto" -->
+	<!--	linkowanie do rersponsive -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!--	linkowanie do fontów "https://fonts.google.com/?query=ro&selection.family=Lato|Roboto" -->
 	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto&amp;subset=latin-ext" rel="stylesheet">
+
 </head>
+
 <body>
 
-<!--   main navigation START -->
+	<!--   main navigation START -->
 	<nav id="main-nav">
 		<ul>
 			<li class="menu-item"><a href="#about">O mnie</a></li>
-   			<li class="menu-item"><a href="#skills">Umiejętności</a></li>
-   			<li class="menu-item"><a href="#portfolio">Portfolio</a></li>
-    		<li class="menu-item"><a href="#contact">Kontakt</a></li>
-    	</ul>
-    </nav>
-<!--  	main navigation STOP -->
+			<li class="menu-item"><a href="#skills">Umiejętności</a></li>
+			<li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+			<li class="menu-item"><a href="#contact">Kontakt</a></li>
+		</ul>
+	</nav>
+	<!--  	main navigation STOP -->
 
-<!--  	main header START -->
-    <header id="main-header">
-    	<div class="main-header-content">
-			<h1> Marek<span> Kubiś </span></h1>
-    		<h2> front end developer </h2>
-    	</div>
-  	</header>
-<!--  	main header STOP-->
+	<!--  	main header START -->
+	<header id="main-header">
+		<div class="main-header-content">
+			<h1> Marek <span> Kubiś </span></h1>
+			<h2> front end developer </h2>
+		</div>
+	</header>
+	<!--  	main header STOP-->
 
-<!-- AboutSection START-->
+	<!-- AboutSection START-->
 
-<section id="about">
-	<h2>O mnie</h2>
-	<figure><img src="img/jan-nowak.jpg" alt="Jan Nowak"></figure>
-	<article class="about-content">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias consectetur dolor ullam officiis. Provident illum perspiciatis, at non ipsa delectus eveniet ea nesciunt suscipit nobis, repudiandae, cupiditate et. Enim reprehenderit, eligendi tenetur sit aliquam velit similique, laborum porro error consequuntur sed assumenda, maxime. Consectetur eum, voluptate blanditiis natus nobis tempore!</p>
-	</article>
-</section>
+	<section id="about">
+		<h2>O mnie</h2>
+		<figure><img src="img/jan-nowak.jpg" alt="Jan Nowak"></figure>
+		<article class="about-content">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias consectetur dolor ullam officiis. Provident illum perspiciatis, at non ipsa delectus eveniet ea nesciunt suscipit nobis, repudiandae, cupiditate et. Enim reprehenderit, eligendi tenetur sit aliquam velit similique, laborum porro error consequuntur sed assumenda, maxime. Consectetur eum, voluptate blanditiis natus nobis tempore!</p>
+		</article>
+	</section>
 
-<!-- AboutSection STOP-->
+	<!-- AboutSection STOP-->
 
-<!--Skills section START-->
+	<!--Skills section START-->
 
-<section id="skills">
-	<h2>moje umiejętności</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio voluptates, nobis itaque unde, voluptatem deserunt consequatur sunt, modi totam, sapiente eum. Laudantium, odio deserunt maiores unde nam, rerum neque. Deleniti.</p>
-	<div id="skills-icons">
-		<figure class="skills-icons-item">
-			<img src="icons/html5.png" alt="Ikona HTML5">
-			<figcapition>HTML5</figcapition>
-		</figure>
-		<figure class="skills-icons-item">
-			<img src="icons/css3.png" alt="Ikona CSS3">
-			<figcapition>CSS3</figcapition>
-		</figure>
-		<figure class="skills-icons-item">
-			<img src="icons/js.png" alt="Ikona JS">
-			<figcapition>JS</figcapition>
-		</figure>
-		<figure class="skills-icons-item">
-			<img src="icons/jquery.png" alt="Ikona jQuery">
-			<figcapition>Jquery</figcapition>
-		</figure>
-	</div>
-</section>
+	<section id="skills">
+		<h2>moje umiejętności</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio voluptates, nobis itaque unde, voluptatem deserunt consequatur sunt, modi totam, sapiente eum. Laudantium, odio deserunt maiores unde nam, rerum neque. Deleniti.</p>
+		<div id="skills-icons">
+			<figure class="skills-icons-item">
+				<img src="icons/html5.png" alt="Ikona HTML5">
+				<figcapition>HTML5</figcapition>
+			</figure>
+			<figure class="skills-icons-item">
+				<img src="icons/css3.png" alt="Ikona CSS3">
+				<figcapition>CSS3</figcapition>
+			</figure>
+			<figure class="skills-icons-item">
+				<img src="icons/js.png" alt="Ikona JS">
+				<figcapition>JS</figcapition>
+			</figure>
+			<figure class="skills-icons-item">
+				<img src="icons/jquery.png" alt="Ikona jQuery">
+				<figcapition>Jquery</figcapition>
+			</figure>
+		</div>
+	</section>
 
-<!--Skills section START-->
+	<!--Skills section STOP-->
 
+	<!-- Contact section START -->
+	<section id="contact">
+		<div class="contact-data">
+			<h2>Marek <span>Kubiś </span></h2>
+			<adress>
+				ul. Odrodzenia 3<br/> 89-400 Sępólno Krajeńskie<br/> tel. 123 123 132<br/> e-mail: <a href="mailto:kubis.m.j@gmail.com">kubis.m.j@gmail.com</a><br/>
+			</adress>
+			<div class="contact-social-icons">
+				<a href=""><i class="fa fa-facebook"></i></a>
+				<a href=""><i class="fa fa-google-plus"></i></a>
+				<a href=""><i class="fa fa-twitter"></i></a>
+				<a href=""><i class="fa fa-linkedin"></i></a>
+			</div>
+		</div>
+		<div class="contact-form">
+			<form action="" method="post">
+				<input type="text" name="imie-nazwisko" placeholder="Imię i Nazwisko">
+				<input type="text" name="email" placeholder="email">
+				<textarea name="wiadomosc" cols="30" rows="10" placeholder="Treść wiadomiści"></textarea>
+				<input type="submit" value="Wyślij" placeholder="Wyślij">
+			</form>
+		</div>
+	</section>
+	<!-- Contact section STOP -->
 
+	<!-- Portfolio section STOP -->
+	<section id="portfolio">
+		<h2>Moje <span>portfolio</span></h2>
+		<div class="portfolio-items">
+			<div class="single-portfolio-item" id="portfolio-item-1">
+				<div class="item-mask">
+					<div class="item-mask-content">
+						<div class="item-content-inner">
+							<h3>Mój projekt</h3>
+							<p>Opis projektu</p>
+							<h4>Wykorzystane technologie:</h4>
+							<p class="prroject-technologies">HTML5, CSS3, RWD, Bootstrap, Javascript</p>
+							<a href="project-link"><i class="fa fa-2x fa-link"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="single-portfolio-item" id="portfolio-item-2">
+
+			</div>
+			<div class="single-portfolio-item" id="portfolio-item-3">
+
+			</div>
+		</div>
+	</section>
+	<!-- Portfolio section STOP -->
+
+	<!-- Footer START -->
+	<footer>
+		<p class="copyirght">Copyright &copy; Marek Kubiś </p>
+	</footer>
+	<!-- Footer STOP -->
 </body>
+
 </html>
