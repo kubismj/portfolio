@@ -30,13 +30,16 @@ section h2 {
 #main-nav {
 	position: fixed;
 	width: 100%;
-	background-color: #fff;
+	background-color: rgba(0, 0, 0, 0.2);
 	top: 0;
 	right: 0;
 }
 #main-nav > ul {
 	margin: 0;
 	float: right;
+}
+#main-nav .toggle, #drop {
+	display: none;
 }
 #main-nav > ul > li {
 	display: inline-block;
@@ -84,7 +87,7 @@ section h2 {
 	float: left;
 }
 #about > figure > img {
-	max-height: 350px;
+	max-height: 500px;
 	max-width: 100%;
 	border: 15px #fff solid;
 	border-radius: 15%;
@@ -119,8 +122,10 @@ section h2 {
 	float: left;
 }
 #contact .contact-data h2 {
-	width: 50%;
+	width: 100%;
 	float: left;
+	display: block;
+	text-align: left;
 }
 #contact .contact-data h2 span {
 	color: green;

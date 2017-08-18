@@ -6,9 +6,89 @@
 		width: 100%;
 	}
 }
+
 @media all and (max-width: 992px) {
-	
+	#main-nav .toggle {
+		display: block;
+		background-color: rgba(0, 0, 0, 0.2);
+		padding: 0 20px;
+		color: #1ac056;
+		font-size: 20px;
+		text-decoration: none;
+		border: none;
+		text-align: right;
+	}
+	#main-nav ul {
+		display: none;
+	}
+	#main-nav #drop:checked+ul {
+		display: block;
+	}
+	#main-nav > ul > li {
+		display: block;
+		width: 100%;
+		padding: 20px;
+		text-align: right;
+	}
 }
+
 @media all and (max-width: 786px) {
-	
+	#main-header .main-header-content {
+		padding: 10%;
+	}
+}
+/* Responsywna sekcja O mnie */
+@media all and (max-width: 786px) {
+	#about > figure {
+		width: 100%;
+	}
+	#about > figure > img {
+		max-height: inherit;
+	}
+	#about > article .about-content {
+		width: 100%;
+	}
+}
+
+/* Responsywne portfolio */
+
+@media all and (max-width : 1200px) {
+	#portfolio .portfolio-items .single-portfolio-item {
+		width: 50%;
+	}
+	#portfolio .portfolio-items .single-portfolio-item:last-child {
+		width: 100%;
+	}
+}
+@media all and (max-width : 768px) {
+	#portfolio .portfolio-items .single-portfolio-item {
+		width: 100%;
+	}
+
+}
+
+/* responsywny kontakt */
+@media all and (max-width: 786px) {
+	#contact .contact-data {
+		width: 100%;
+		text-align: left;
+	}
+	#contact .contact-form {
+		width: 100%;
+	}
+	#contact .contact-social-icons {
+		margin: 0;
+	}
+}
+
+/* Generalne style responsywne - dla wszytkich sekcji wpisujemy po prostu section */
+@media all and (max-width : 992px) {
+	section {
+		padding: 0 40px 50px;
+	}
+}
+@media all and (max-width : 768px) {
+		section {
+		padding: 0 10px 30px;
+	}
 }
